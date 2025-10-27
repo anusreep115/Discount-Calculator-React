@@ -10,7 +10,7 @@ function DiscountCalculator() {
 
   const handleCalculate = () => {
     if (amount === "" || discount === "") {
-      alert("Please enter both amount and discount percentage");
+      alert("Please enter both amount and discount");
       return;
     }
     const discAmt = (amount * discount) / 100;
